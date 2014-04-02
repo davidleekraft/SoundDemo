@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63FF14F818ECCC65003DDA06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF14F718ECCC65003DDA06 /* Foundation.framework */; };
+		63FF14FA18ECCC65003DDA06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF14F918ECCC65003DDA06 /* CoreGraphics.framework */; };
+		63FF14FC18ECCC65003DDA06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF14FB18ECCC65003DDA06 /* UIKit.framework */; };
+		63FF150218ECCC65003DDA06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63FF150018ECCC65003DDA06 /* InfoPlist.strings */; };
+		63FF150418ECCC65003DDA06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF150318ECCC65003DDA06 /* main.m */; };
+		63FF150818ECCC65003DDA06 /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF150718ECCC65003DDA06 /* FGAppDelegate.m */; };
+		63FF150B18ECCC65003DDA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FF150918ECCC65003DDA06 /* Main.storyboard */; };
+		63FF150E18ECCC65003DDA06 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF150D18ECCC65003DDA06 /* FGViewController.m */; };
+		63FF151018ECCC65003DDA06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FF150F18ECCC65003DDA06 /* Images.xcassets */; };
+		63FF151718ECCC65003DDA06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF151618ECCC65003DDA06 /* XCTest.framework */; };
+		63FF151818ECCC65003DDA06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF14F718ECCC65003DDA06 /* Foundation.framework */; };
+		63FF151918ECCC65003DDA06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF14FB18ECCC65003DDA06 /* UIKit.framework */; };
+		63FF152118ECCC65003DDA06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63FF151F18ECCC65003DDA06 /* InfoPlist.strings */; };
+		63FF152318ECCC65003DDA06 /* FoleyGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF152218ECCC65003DDA06 /* FoleyGenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63FF151A18ECCC65003DDA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63FF14EC18ECCC65003DDA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63FF14F318ECCC65003DDA06;
+			remoteInfo = FoleyGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63FF14F418ECCC65003DDA06 /* FoleyGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoleyGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FF14F718ECCC65003DDA06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63FF14F918ECCC65003DDA06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63FF14FB18ECCC65003DDA06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63FF14FF18ECCC65003DDA06 /* FoleyGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoleyGen-Info.plist"; sourceTree = "<group>"; };
+		63FF150118ECCC65003DDA06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63FF150318ECCC65003DDA06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63FF150518ECCC65003DDA06 /* FoleyGen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoleyGen-Prefix.pch"; sourceTree = "<group>"; };
+		63FF150618ECCC65003DDA06 /* FGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGAppDelegate.h; sourceTree = "<group>"; };
+		63FF150718ECCC65003DDA06 /* FGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGAppDelegate.m; sourceTree = "<group>"; };
+		63FF150A18ECCC65003DDA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63FF150C18ECCC65003DDA06 /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
+		63FF150D18ECCC65003DDA06 /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
+		63FF150F18ECCC65003DDA06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63FF151518ECCC65003DDA06 /* FoleyGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoleyGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FF151618ECCC65003DDA06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63FF151E18ECCC65003DDA06 /* FoleyGenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoleyGenTests-Info.plist"; sourceTree = "<group>"; };
+		63FF152018ECCC65003DDA06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63FF152218ECCC65003DDA06 /* FoleyGenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoleyGenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63FF14F118ECCC65003DDA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF14FA18ECCC65003DDA06 /* CoreGraphics.framework in Frameworks */,
+				63FF14FC18ECCC65003DDA06 /* UIKit.framework in Frameworks */,
+				63FF14F818ECCC65003DDA06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FF151218ECCC65003DDA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF151718ECCC65003DDA06 /* XCTest.framework in Frameworks */,
+				63FF151918ECCC65003DDA06 /* UIKit.framework in Frameworks */,
+				63FF151818ECCC65003DDA06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63FF14EB18ECCC65003DDA06 = {
+			isa = PBXGroup;
+			children = (
+				63FF14FD18ECCC65003DDA06 /* FoleyGen */,
+				63FF151C18ECCC65003DDA06 /* FoleyGenTests */,
+				63FF14F618ECCC65003DDA06 /* Frameworks */,
+				63FF14F518ECCC65003DDA06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63FF14F518ECCC65003DDA06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63FF14F418ECCC65003DDA06 /* FoleyGen.app */,
+				63FF151518ECCC65003DDA06 /* FoleyGenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63FF14F618ECCC65003DDA06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FF14F718ECCC65003DDA06 /* Foundation.framework */,
+				63FF14F918ECCC65003DDA06 /* CoreGraphics.framework */,
+				63FF14FB18ECCC65003DDA06 /* UIKit.framework */,
+				63FF151618ECCC65003DDA06 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63FF14FD18ECCC65003DDA06 /* FoleyGen */ = {
+			isa = PBXGroup;
+			children = (
+				63FF150618ECCC65003DDA06 /* FGAppDelegate.h */,
+				63FF150718ECCC65003DDA06 /* FGAppDelegate.m */,
+				63FF150918ECCC65003DDA06 /* Main.storyboard */,
+				63FF150C18ECCC65003DDA06 /* FGViewController.h */,
+				63FF150D18ECCC65003DDA06 /* FGViewController.m */,
+				63FF150F18ECCC65003DDA06 /* Images.xcassets */,
+				63FF14FE18ECCC65003DDA06 /* Supporting Files */,
+			);
+			path = FoleyGen;
+			sourceTree = "<group>";
+		};
+		63FF14FE18ECCC65003DDA06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63FF14FF18ECCC65003DDA06 /* FoleyGen-Info.plist */,
+				63FF150018ECCC65003DDA06 /* InfoPlist.strings */,
+				63FF150318ECCC65003DDA06 /* main.m */,
+				63FF150518ECCC65003DDA06 /* FoleyGen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63FF151C18ECCC65003DDA06 /* FoleyGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				63FF152218ECCC65003DDA06 /* FoleyGenTests.m */,
+				63FF151D18ECCC65003DDA06 /* Supporting Files */,
+			);
+			path = FoleyGenTests;
+			sourceTree = "<group>";
+		};
+		63FF151D18ECCC65003DDA06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63FF151E18ECCC65003DDA06 /* FoleyGenTests-Info.plist */,
+				63FF151F18ECCC65003DDA06 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63FF14F318ECCC65003DDA06 /* FoleyGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63FF152618ECCC65003DDA06 /* Build configuration list for PBXNativeTarget "FoleyGen" */;
+			buildPhases = (
+				63FF14F018ECCC65003DDA06 /* Sources */,
+				63FF14F118ECCC65003DDA06 /* Frameworks */,
+				63FF14F218ECCC65003DDA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoleyGen;
+			productName = FoleyGen;
+			productReference = 63FF14F418ECCC65003DDA06 /* FoleyGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63FF151418ECCC65003DDA06 /* FoleyGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63FF152918ECCC65003DDA06 /* Build configuration list for PBXNativeTarget "FoleyGenTests" */;
+			buildPhases = (
+				63FF151118ECCC65003DDA06 /* Sources */,
+				63FF151218ECCC65003DDA06 /* Frameworks */,
+				63FF151318ECCC65003DDA06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63FF151B18ECCC65003DDA06 /* PBXTargetDependency */,
+			);
+			name = FoleyGenTests;
+			productName = FoleyGenTests;
+			productReference = 63FF151518ECCC65003DDA06 /* FoleyGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63FF14EC18ECCC65003DDA06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Kraft";
+				TargetAttributes = {
+					63FF151418ECCC65003DDA06 = {
+						TestTargetID = 63FF14F318ECCC65003DDA06;
+					};
+				};
+			};
+			buildConfigurationList = 63FF14EF18ECCC65003DDA06 /* Build configuration list for PBXProject "FoleyGen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63FF14EB18ECCC65003DDA06;
+			productRefGroup = 63FF14F518ECCC65003DDA06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63FF14F318ECCC65003DDA06 /* FoleyGen */,
+				63FF151418ECCC65003DDA06 /* FoleyGenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63FF14F218ECCC65003DDA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF151018ECCC65003DDA06 /* Images.xcassets in Resources */,
+				63FF150218ECCC65003DDA06 /* InfoPlist.strings in Resources */,
+				63FF150B18ECCC65003DDA06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FF151318ECCC65003DDA06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF152118ECCC65003DDA06 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63FF14F018ECCC65003DDA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF150418ECCC65003DDA06 /* main.m in Sources */,
+				63FF150818ECCC65003DDA06 /* FGAppDelegate.m in Sources */,
+				63FF150E18ECCC65003DDA06 /* FGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FF151118ECCC65003DDA06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF152318ECCC65003DDA06 /* FoleyGenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63FF151B18ECCC65003DDA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63FF14F318ECCC65003DDA06 /* FoleyGen */;
+			targetProxy = 63FF151A18ECCC65003DDA06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63FF150018ECCC65003DDA06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63FF150118ECCC65003DDA06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63FF150918ECCC65003DDA06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63FF150A18ECCC65003DDA06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63FF151F18ECCC65003DDA06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63FF152018ECCC65003DDA06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63FF152418ECCC65003DDA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63FF152518ECCC65003DDA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63FF152718ECCC65003DDA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				INFOPLIST_FILE = "FoleyGen/FoleyGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63FF152818ECCC65003DDA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				INFOPLIST_FILE = "FoleyGen/FoleyGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63FF152A18ECCC65003DDA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoleyGen.app/FoleyGen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FoleyGenTests/FoleyGenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		63FF152B18ECCC65003DDA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoleyGen.app/FoleyGen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				INFOPLIST_FILE = "FoleyGenTests/FoleyGenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63FF14EF18ECCC65003DDA06 /* Build configuration list for PBXProject "FoleyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF152418ECCC65003DDA06 /* Debug */,
+				63FF152518ECCC65003DDA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63FF152618ECCC65003DDA06 /* Build configuration list for PBXNativeTarget "FoleyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF152718ECCC65003DDA06 /* Debug */,
+				63FF152818ECCC65003DDA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63FF152918ECCC65003DDA06 /* Build configuration list for PBXNativeTarget "FoleyGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF152A18ECCC65003DDA06 /* Debug */,
+				63FF152B18ECCC65003DDA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63FF14EC18ECCC65003DDA06 /* Project object */;
+}
